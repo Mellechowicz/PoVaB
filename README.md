@@ -1,5 +1,6 @@
 # PoVaB
 **P**rojected **o**rbitals on **Va**sp **B**andstructure
+
 Utility for extracting the projected bandstructure (character plot) from Vienna Ab Initio Software Package [1] output (vasprun.xml)
 
 [1] G. Kresse and J. Furthmüller,Phys. Rev. B 54, 11169 (1996); Comput. Mater. Sci. 6, 15 (1996)
@@ -36,3 +37,6 @@ optional arguments:
                         '$\Gamma$'; default None)
   --dpi DPI             Figure dpi (default: 200)
 ```
+
+[![CodeFactor](https://www.codefactor.io/repository/github/mellechowicz/povab/badge)](https://www.codefactor.io/repository/github/mellechowicz/povab)
+[![codebeat badge](https://codebeat.co/badges/54186a8d-8b10-418f-96be-7267e390f5dc)](https://codebeat.co/projects/github-com-mellechowicz-povab-master)

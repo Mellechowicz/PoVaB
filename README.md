@@ -4,7 +4,7 @@ Utility for extracting the projected bandstructure (character plot) from Vienna 
 
 [1] G. Kresse and J. Furthmüller,Phys. Rev. B 54, 11169 (1996); Comput. Mater. Sci. 6, 15 (1996)
 
-Program analyses the vasprun.xml file for calculations **with LORBIT** tag <img src="https://render.githubusercontent.com/render/math?math=\in \{1,2,11,12,13,14\}">.
+Program analysies the vasprun.xml file for calculations **with LORBIT** tag <img src="https://render.githubusercontent.com/render/math?math=\in \{1,2,11,12,13,14\}">.
 
 ```bash
 usage: PoVaB [-h] [--efermi EFERMI] [--outfile OUTFILE]

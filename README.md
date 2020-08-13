@@ -7,6 +7,29 @@ Utility for extracting the projected bandstructure (character plot) from Vienna 
 
 Program analysies the vasprun.xml file for calculations **with LORBIT** tag <img src="https://render.githubusercontent.com/render/math?math=\in \{1,2,11,12,13,14\}">.
 
+### Requirements
+For ```Python 3.7.2``` and up:
+```
+numpy >= 1.16.2
+matplotlib >= 3.0.2
+defusedxml >= 0.5.0
+argparse >= 1.1
+```
+The above may be installed using ```pip```:
+``` bash
+sudo pip3 install -r requirements.txt
+```
+
+For tagging the High symmetry points on the plots we require a separate LaTeX installation.
+
+### Installation
+```bash
+  git clone https://github.com/Mellechowicz/PoVaB.git
+  cd PoVaB
+  sudo python3 setup.py install
+```
+
+### Options
 ```bash
 usage: PoVaB [-h] [--efermi EFERMI] [--outfile OUTFILE]
                   [--vasprun VASPRUN]
@@ -40,3 +63,4 @@ optional arguments:
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mellechowicz/povab/badge)](https://www.codefactor.io/repository/github/mellechowicz/povab)
 [![codebeat badge](https://codebeat.co/badges/54186a8d-8b10-418f-96be-7267e390f5dc)](https://codebeat.co/projects/github-com-mellechowicz-povab-master)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/be6cedf1649d4c5a9ec0a7084f645934)](https://www.codacy.com/manual/apkadzielawa/PoVaB?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Mellechowicz/PoVaB&amp;utm_campaign=Badge_Grade)

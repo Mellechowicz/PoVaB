@@ -1,10 +1,9 @@
 import defusedxml.ElementTree as ET
 
 class Tags(dict):
-    """
-        Container for calculation tags
-    """
+    """ Container for calculation tags """
     def __init__(self,vasprun):
+        """ Reading and storing the INCAR tags """
         incar = ET.parse(vasprun).getroot().find('incar')
         for tag in incar.findall('i'):
             if 'name' not in tag.attrib:

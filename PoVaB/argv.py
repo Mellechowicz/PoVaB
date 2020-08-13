@@ -6,9 +6,7 @@ class Error:
     access = 123
 
 class Options:
-    """
-    Options-parsing class
-    """
+    """ Options-parsing class """
     keys = [ 'outfile', 'vasprun', 'orbitals', 'ions', 'efermi', 'range', 'labels', 'dpi' ]
 
     def __init__(self, *args):

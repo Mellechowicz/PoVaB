@@ -6,9 +6,15 @@ class Error:
     access = 123
 
 class Options:
+    """
+    Options-parsing class
+    """
     keys = [ 'outfile', 'vasprun', 'orbitals', 'ions', 'efermi', 'range', 'labels', 'dpi' ]
 
     def __init__(self, *args):
+        """
+            Initialization of parser, together with arguments.
+        """
         self.parser = ap.ArgumentParser(description='Plotting the projected bands')
         self.parser.add_argument('--efermi', '-E', default=0.0, type=np.float,
                 help='Fermi energy in eV (default: 0.0 eV)')
@@ -27,7 +33,7 @@ class Options:
                help='Labels for each of high symmetry points. (e.g., \'$\Gamma$\'; default None)')
         self.parser.add_argument('--dpi', default=200, type=int,
                 help='Figure dpi (default: 200)')
-                                     
+
         self.opt = self.parser.parse_args(args[1:])
 
     def __call__(self, key):

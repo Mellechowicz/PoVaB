@@ -2,7 +2,7 @@ import re
 from setuptools import setup
 from os import makedirs,environ
 from shutil import rmtree
-from sys import argv,path,version_info
+from sys import argv,version_info
 
 packages_PoVaB     = ['PoVaB']
 executables_PoVaB  = ['PoVaB/bin/PoVaB']

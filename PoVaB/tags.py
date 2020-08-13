@@ -16,7 +16,6 @@ class Tags(dict):
     def translate_xml2py(convert_type,value):
         if convert_type == 'int':
             return int(value)
-        elif convert_type == 'logical':
+        if convert_type == 'logical':
             return True if 'T' in value else False
-        else:
-            return value
+        return value

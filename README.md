@@ -64,4 +64,5 @@ optional arguments:
 [![CodeFactor](https://www.codefactor.io/repository/github/mellechowicz/povab/badge)](https://www.codefactor.io/repository/github/mellechowicz/povab)
 [![codebeat badge](https://codebeat.co/badges/54186a8d-8b10-418f-96be-7267e390f5dc)](https://codebeat.co/projects/github-com-mellechowicz-povab-master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/be6cedf1649d4c5a9ec0a7084f645934)](https://www.codacy.com/manual/apkadzielawa/PoVaB?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Mellechowicz/PoVaB&amp;utm_campaign=Badge_Grade)
+
 <sub><sup>This work was supported by The Ministry of Education, Youth and Sports from the Large Infrastructures for Research, Experimental Development and Innovations project *IT4Innovations National Supercomputing Center – LM2015070*.</sup></sub>

@@ -14,7 +14,7 @@ class Options:
             Initialization of parser, together with arguments.
         """
         self.parser = ap.ArgumentParser(description='Plotting the projected bands')
-        self.parser.add_argument('--efermi', '-E', default=0.0, type=np.float,
+        self.parser.add_argument('--efermi', '-E', default=0.0, type=float,
                 help='Fermi energy in eV (default: 0.0 eV)')
         self.parser.add_argument('--outfile', '-o', default='fig.png',
                 help='Name of the plotted figure (default: \'fig.png\'')

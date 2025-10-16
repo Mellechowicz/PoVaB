@@ -18,7 +18,7 @@ if __name__ == '__main__':
     o        = opt('orbitals')
     ions=[ int(a) for a in opt('ions').split(',')]
     efermi = opt('efermi')
-    eLimit = [ np.float(a) for a in opt('range').split(',')]
+    eLimit = [ float(a) for a in opt('range').split(',')]
     labels = opt('labels')
     dpi    = opt('dpi')
 
